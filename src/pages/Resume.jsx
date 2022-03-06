@@ -4,6 +4,7 @@ import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { AiOutlineDownload } from "react-icons/ai";
 import samplePdf from "../assets/Anurodh_Dubey_Resume.pdf";
+import collegePdf from "../assets/Anurodh's College Resume.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const Resume = () => {
@@ -17,7 +18,7 @@ const Resume = () => {
     <div className="pt-16 bg-gray-900 text-white">
       <Particle />
       <div className="flex justify-center mt-16">
-        <a href={samplePdf} target="_blank" rel="noreferrer">
+        <a href={collegePdf} target="_blank" rel="noreferrer">
           <button class="bg-loving hover:bg-violet-700 text-white font-bold py-2 px-4 rounded inline-flex items-center space-x-1">
             <AiOutlineDownload className="font-semibold text-lg " />
             <span>Download CV</span>
@@ -30,8 +31,8 @@ const Resume = () => {
         </Document>
       </div>
       <div className="flex justify-center mt-12 pb-10">
-        <a href={samplePdf} target="_blank" rel="noreferrer">
-          <button class="bg-loving hover:bg-violet-700 text-white font-bold py-2 px-4 rounded inline-flex items-center space-x-1">
+        <a href={collegePdf} target="_blank" rel="noreferrer">
+          <button className="bg-loving hover:bg-violet-700 text-white font-bold py-2 px-4 rounded inline-flex items-center space-x-1">
             <AiOutlineDownload className="font-semibold text-lg " />
             <span>Download CV</span>
           </button>
