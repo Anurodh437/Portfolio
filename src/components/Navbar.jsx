@@ -17,8 +17,7 @@ const Navbar = () => {
           <Link to="/" className="flex">
             <img src={Logo} width={150} height={100} alt="" />
           </Link>
-          <div className="flex md:order-2">
-            
+          <div className="flex md:order-2"> 
             <button
               data-collapse-toggle="mobile-menu-4"
               type="button"

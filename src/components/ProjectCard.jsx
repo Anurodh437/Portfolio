@@ -3,21 +3,21 @@ import React from "react";
 const ProjectCard = (props) => {
   return (
     <div className="flex space-x-5">
-      <div class="flex flex-col max-w-xs sm:max-w-lg lg:max-w-md bg-transparent rounded mb-20 h-96 sm:h-200 lg:h-100 sideshad">
+      <div className="flex flex-col max-w-xs sm:max-w-lg lg:max-w-md bg-transparent rounded mb-20 h-96 sm:h-200 lg:h-100 sideshad">
         <a href={props.img} target="_blank" rel="noreferrer">
-          <img class="rounded-t" src={props.img} alt="" />
+          <img className="rounded-t" src={props.img} alt="" />
         </a>
-        <div class="p-5 text-justify">
-            <h5 class="mb-2 text-2xl font-bold tracking-wide text-center pt-5">
+        <div className="p-5 text-justify">
+            <h5 className="mb-2 text-2xl font-bold tracking-wide text-center pt-5">
               {props.title}
             </h5>
-          <p class="mb-3 font-normal pt-2">{props.description}</p>
+          <p className="mb-3 font-normal pt-2">{props.description}</p>
           <div className="flex justify-center pt-2">
             <a
               href={props.link}
               target="_blank"
               rel="noreferrer"
-              class="inline-flex space-x-1 items-center py-2 px-3 text-sm font-medium text-center text-white bg-loving rounded-lg hover:bg-violet-700 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="inline-flex space-x-1 items-center py-2 px-3 text-sm font-medium text-center text-white bg-loving rounded-lg hover:bg-violet-700 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               <svg
                 fill="#000000"

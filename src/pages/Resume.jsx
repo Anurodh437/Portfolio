@@ -19,7 +19,7 @@ const Resume = () => {
       <Particle />
       <div className="flex justify-center mt-16">
         <a href={collegePdf} target="_blank" rel="noreferrer">
-          <button class="bg-loving hover:bg-violet-700 text-white font-bold py-2 px-4 rounded inline-flex items-center space-x-1">
+          <button className="bg-loving hover:bg-violet-700 text-white font-bold py-2 px-4 rounded inline-flex items-center space-x-1">
             <AiOutlineDownload className="font-semibold text-lg " />
             <span>Download CV</span>
           </button>
